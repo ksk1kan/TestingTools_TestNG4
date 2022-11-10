@@ -1,4 +1,4 @@
-package Gun01;
+package Gun01_Annotations_Assertions;
 
 import Utility.BaseDriver;
 import org.testng.Assert;

@@ -1,6 +1,7 @@
-package Gun01;
+package Gun01_Annotations_Assertions;
 
 import Utility.BaseDriver;
+import Utility.Tools;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -26,9 +27,7 @@ public class _06_SubscribeNewsletter extends BaseDriver {
         WebElement contButton = driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/div[2]/input"));
         contButton.click();
 
-        WebElement msgLabel = driver.findElement(By.cssSelector("div[class='alert alert-success alert-dismissible'"));
-
-        Assert.assertTrue(msgLabel.getText().toLowerCase().contains("success"));
+        Tools.successMessageValidation();
 
     }
 
