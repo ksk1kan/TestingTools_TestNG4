@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">   <!-- Tüm Testleri kapsayan bölüm -->
+
+    <test name="test1">
+        <parameter name="mesaj" value="Merhabalar Testerlar, açılın ben geldim.555"></parameter>
+
+        <classes>
+            <class name="Gun04._02_ContactUs"></class>
+        </classes>
+    </test>
+
+</suite>
