@@ -1,0 +1,16 @@
+Bu sayfadaki bütün elemenalrın driverlar bağlantısı gerekiyor
+    bunun için aşağıdaki consructor eklendi ve için PageFatory ile
+        driver üzerinden bu (this) sayfadaki bütün elemnalar ilşkilendirildi.
+
+Böylece Sayfada dan nesne türetildiği zaman değil, kullanıldığı
+    anda elemanların bulunması aktif oluyor.Bu yöntemle bütün sayfalarda
+        aynı isimde elemanlar var ise buradaki tanımlama hepsi için geçerli hale
+            gelmiş oluyor. buna yapıya Page Object Model (POM) adı veriliyor.
+
+--------------------------------------------------------------------------------------
+
+1- Bütün sayfalada isimleri aynı olan elemanlar için 1 tanımlama yeterli oluyor.
+   Böylece tanımlanan elemanlar tekrar kullanılabilir yani Reusable oluyor.
+2- Kodun içerisinden HTML kodları ayrıldığından kod okunabilirliği artıyor.
+3- Developer locatorlarda bir değişiklik yaptığı zaman, asıl kodla hiç bir şekilde
+   uğraşmak zorunda kalmıyoruz, sadece gidip locator ı değiştiriyoruz.

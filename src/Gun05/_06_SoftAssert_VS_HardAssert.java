@@ -7,25 +7,23 @@ import org.testng.asserts.SoftAssert;
 public class _06_SoftAssert_VS_HardAssert {
 
     @Test
-    void hardAssert()
-    {
-        String s1="Merhaba";
+    void hardAssert() {
+        String s1 = "Merhaba";
 
         System.out.println("HARD Assert kontrol öncesi");
-        Assert.assertEquals("Merhaba 123",s1,"HARDAssert Sonucu");
+        Assert.assertEquals("Merhaba 123", s1, "HARDAssert Sonucu");
         System.out.println("HARD Assert kontrol sonrası");
     }
 
     @Test
-    void softAssert()
-    {
-        String strHomePage="www.facebook.com/homepage";
-        String strCartPage="www.facebook.com/cartpage";
-        String strEditAccount="www.facebook.com/editaccountpage";
+    void softAssert() {
+        String strHomePage = "www.facebook.com/homepage";
+        String strCartPage = "www.facebook.com/cartpage";
+        String strEditAccount = "www.facebook.com/editaccountpage";
 
         SoftAssert _softAssert = new SoftAssert();
 
-        _softAssert.assertEquals("www.facebook.com/homepage",strHomePage); // true
+        _softAssert.assertEquals("www.facebook.com/homepage", strHomePage); // true
         System.out.println("***** ASSERT 1 KONTROL *****");
 
         _softAssert.assertEquals("www.facebook.com/profile", strCartPage); //false
@@ -38,6 +36,4 @@ public class _06_SoftAssert_VS_HardAssert {
         _softAssert.assertAll();
 
     }
-
-
 }
