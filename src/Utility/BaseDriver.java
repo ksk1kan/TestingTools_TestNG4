@@ -49,7 +49,7 @@ public class BaseDriver {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         loginTest();
-    }
+  }
 
     void loginTest()
     {

@@ -1,32 +1,23 @@
-Java bitirdik
-Selenium u bitirdik
+Yol Haritamız
+1- Java Core - program dili
+2- Github    - kodların yönetimi
 
-testler -> genel durumu test ediyorum
-           smoke
+WEB Testing
+3- Selenium  - test tool, web driver
+4- TestNG(WEB)- Testlerimizi organi etti
+5- Cucumber (Web Testing) 10-12 gün
 
-        -> tüm sistemi test ediyorum
-
-        -> sadece ilgili bölümü test
-
-testlerin gruplanması gerekiyor
-bazı testler pass geçilecek
-paralel test , cross browser
-testlerin bağımlı çalışması
-testlerin sıralı calısması
-testleri istediğimiz gibi organize edilmesi gerekiyor
-organize eden tool lar var
-
-Web Testing
-testNG       8 gün - basit rapor
-Cucumber    12 gün - 3 çeşit çok güzel rapor olacak
-Apache-POI   3 gün Excel işlemleri
+6- ApachePOI - Excel İşlemleri 3 gün
 
 DB Testing
-MySQL        8 gün
-JDBC         3 gün
+7- MySQL - DB yönetiminin Tool 8-9 gün - Sql db komut
+8- JDBC - DB Testing Tool u 3 gün
 
-API testing
-POSTMAN      4 gün
-RestAssured  6 gün
+API Testing
+9- POSTMAN API yonetim tool - 4 gün
+10- RestAssured API test Tool - 6 gün
 
-Jenkins      3-4 gün
+Testlerin zamanlı çalıştırılması
+11- Jenkins 2-3 gün
+
+35-40 gün ders günü
